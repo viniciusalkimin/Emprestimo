@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main(){
+	float sal,emp,porc;
+	
+	printf("Informe seu salario : ");
+	scanf("%f",&sal);
+	
+		printf("Informe o valor do emprestimo : ");
+		scanf("%f",&emp);
+	porc=emp/sal;
+
+			if(porc>=0.25)
+			printf("Emprestimo Negado!");
+	
+				else
+				printf("Emprestimo Aprovado!");
+	
+}
